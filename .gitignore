@@ -1,0 +1,29 @@
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============ #
+# 3rd party generated #
+# ============ #
+.idea
+node_modules
+frontend/bower_components
+frontend/dist
+*.sublime-project
+*.sublime-workspace
+
+# ============ #
+# Temp/Build Dirs #
+# ============ #
+.tmp
+.sass-cache
+_builds
+_builds-zips
+_cache
+_tmp
