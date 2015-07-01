@@ -27,3 +27,5 @@ _builds
 _builds-zips
 _cache
 _tmp
+
+examples/bower_components
