@@ -1,0 +1,11 @@
+{
+  "name": "xd-collection",
+  "version": "1.0.0",
+  "main": [
+    "src/Collection.js"
+  ],
+  "dependencies": {
+    "lodash": "~3.9.3"
+  },
+  "ignore": []
+}
