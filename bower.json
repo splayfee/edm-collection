@@ -1,11 +1,11 @@
 {
-  "name": "xd-collection",
-  "version": "1.0.0",
-  "main": [
-    "src/collection.js"
-  ],
-  "dependencies": {
-    "lodash": "~3.9.3"
-  },
-  "ignore": []
+    "name": "edm-collection",
+    "version": "1.0.0",
+    "main": [
+        "src/collection.js"
+    ],
+    "dependencies": {
+        "lodash": "~3.9.3"
+    },
+    "ignore": []
 }

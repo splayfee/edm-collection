@@ -1,14 +1,14 @@
-xd-collection 
+edm-collection 
 =======
 
-Collection class for use with Angular.  Wraps an array or an object graph and creates an associated hash map.  Ensures the hash map and the array stay in sync. Fully compatible with Array and can be substituted wherever Array is used.
+Collection class for use with Angular.  Wraps an array or an object graph and creates an associated hash map. Ensures the hash map and the array stay in sync. Fully compatible with Array and can be substituted wherever Array is used.
 
 ##Installation
 
-You may install the application by placing a reference to this Git repository in your bower.son file. Be sure to target a specific version in order to ensure longterm compatibility.
+You may install the application through bower. Be sure to target a specific version in order to ensure long term compatibility.
 
 ##Dependencies
-**xd-collection** depends on **Lodash** for some operations.
+**edm-collection** depends on **Lodash** for some operations.
 
 ##Usage
 

@@ -1,44 +1,44 @@
 <html>
 <head>
-  <title>Collection Example</title>
-  <script src="../src/collection.js"></script>
-  <script src="./bower_components/lodash/lodash.min.js"></script>
-  <script type="text/javascript">
+    <title>Collection Example</title>
+    <script src="../src/collection.js"></script>
+    <script src="./bower_components/lodash/lodash.min.js"></script>
+    <script type="text/javascript">
 
-    var items = [];
-    for (var counter = 1; counter <= 1000000; counter++) {
-      var item = {itemId: counter.toString(), name: 'name' + counter.toString()};
-      items.push(item);
-    }
+        var items = [];
+        for (var counter = 1; counter <= 1000000; counter++) {
+            var item = {itemId: counter.toString(), name: 'name' + counter.toString()};
+            items.push( item );
+        }
 
-    var c1 = new Collection(items, 'itemId');
-    console.log('c1: ' , c1);
-    var foundItem = c1.findById('1654');
-    console.log('found: ', foundItem);
+        var c1 = new Collection( items, 'itemId' );
+        console.log( 'c1: ', c1 );
+        var foundItem = c1.findById( '1654' );
+        console.log( 'found: ', foundItem );
 
-    var myHash = {
-      '12': {siteId:'12', name: 'site1'},
-      '34': {siteId:'34', name:'site2'}
-      };
+        var myHash = {
+            '12': {siteId: '12', name: 'site1'},
+            '34': {siteId: '34', name: 'site2'}
+        };
 
-    var myArray = [{siteId:'56', name:'site3'}, {siteId:'78', name:'site4'}];
+        var myArray = [{siteId: '56', name: 'site3'}, {siteId: '78', name: 'site4'}];
 
-    var c2 = new Collection(myHash, 'siteId');
-    var c3 = new Collection(myArray, 'siteId');
+        var c2 = new Collection( myHash, 'siteId' );
+        var c3 = new Collection( myArray, 'siteId' );
 
-    console.log('c2: ', c2);
-    console.log('c3: ', c3);
+        console.log( 'c2: ', c2 );
+        console.log( 'c3: ', c3 );
 
-    // Will create a new Collection
-    var c4 = c2.slice(0,1);
+        // Will create a new Collection
+        var c4 = c2.slice( 0, 1 );
 
-    console.log(c4 instanceof Collection); // true
-    console.log(c4 instanceof Array); // true
-    console.log(Array.isArray(c4)); //true
+        console.log( c4 instanceof Collection ); // true
+        console.log( c4 instanceof Array ); // true
+        console.log( Array.isArray( c4 ) ); //true
 
-  </script>
+    </script>
 </head>
 <body>
-  Please see the console.
+Please see the console.
 </body>
 </html>
